@@ -1,0 +1,21 @@
+#navbar{
+    position: sticky;
+    top:0;
+    left: 0%;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    background: black;
+}
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+    color: black !important;
+}
+#navbarSupportedContent a {
+    color: rgb(4, 14, 22);
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid rgb(236, 221, 221);
+}
