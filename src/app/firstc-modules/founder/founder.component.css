@@ -1,3 +1,17 @@
-/* .founder{
-    background: red;
+.founded{
+     display: flex;
+      justify-content: center; 
+      margin: 0% 5%;
+}
+.header{
+    margin:1% 0%
+}
+.row img {
+    width: 85%;
+}
+ /* .contact{
+    margin-top :10%;
 } */
+/* .contact p {
+    text-align: left;
+}  */
