@@ -1,3 +1,7 @@
 /* .founder{
     background: red;
 } */
+.card-body {
+    box-shadow:  15px 20px 20px rgb(242,242,255),
+                 inset 4px 4px 10px white ;
+}

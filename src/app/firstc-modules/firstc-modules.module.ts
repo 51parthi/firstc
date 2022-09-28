@@ -13,6 +13,9 @@ import { OurProductsComponent } from './our-products/our-products.component';
 import { FooterComponent } from './footer/footer.component';
 import { OurproductsVersion1Component } from './our-products/ourproducts-version1/ourproducts-version1.component';
 import { OurproductsVersion2Component } from './our-products/ourproducts-version2/ourproducts-version2.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+// import { ApiService } from './services/api.service';
 
 
 
@@ -30,10 +33,15 @@ import { OurproductsVersion2Component } from './our-products/ourproducts-version
     OurProductsComponent,
     FooterComponent,
     OurproductsVersion1Component,
-    OurproductsVersion2Component
+    OurproductsVersion2Component,
+    
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ReactiveFormsModule,
+    FormsModule,
+    HttpClientModule
+    
   ],
   exports:[NavbarComponent,
             BannerComponent,
@@ -42,6 +50,7 @@ import { OurproductsVersion2Component } from './our-products/ourproducts-version
             OurProductsComponent,
             ContactComponent,
             FooterComponent
-  ]
+  ],
+  providers: [],
 })
 export class FirstcModulesModule { }
